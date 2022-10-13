@@ -1,9 +1,8 @@
 using RimWorld;
 
-namespace LingGame
+namespace LingGame;
+
+public class LingAliCompProperties_Heal : CompProperties_AbilityEffect
 {
-    public class LingAliCompProperties_Heal : CompProperties_AbilityEffect
-    {
-        public int BindAmount = 5;
-    }
+    public int BindAmount = 5;
 }

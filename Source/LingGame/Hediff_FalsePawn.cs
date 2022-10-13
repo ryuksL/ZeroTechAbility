@@ -1,16 +1,15 @@
 using Verse;
 
-namespace LingGame
+namespace LingGame;
+
+public class Hediff_FalsePawn : HediffWithComps
 {
-    public class Hediff_FalsePawn : HediffWithComps
+    public override void Notify_PawnDied()
     {
-        public override void Notify_PawnDied()
+        base.Notify_PawnDied();
+        if (pawn.Corpse.Spawned)
         {
-            base.Notify_PawnDied();
-            if (pawn.Corpse.Spawned)
-            {
-                pawn.Corpse.Destroy();
-            }
+            pawn.Corpse.Destroy();
         }
     }
 }

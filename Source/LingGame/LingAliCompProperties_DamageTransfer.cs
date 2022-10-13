@@ -1,8 +1,7 @@
 using RimWorld;
 
-namespace LingGame
+namespace LingGame;
+
+public class LingAliCompProperties_DamageTransfer : CompProperties_AbilityEffect
 {
-    public class LingAliCompProperties_DamageTransfer : CompProperties_AbilityEffect
-    {
-    }
 }
