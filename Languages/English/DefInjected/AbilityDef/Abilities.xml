@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 包扎 -->
+  <LingAbiBind.label>Bandaging</LingAbiBind.label>
+  <LingAbiBind.description>Immediately bandage up to 5 wounds on a target's body</LingAbiBind.description>
+  <!-- 性转 -->
+  <LingAbiSexConversion.label>Sexual change</LingAbiSexConversion.label>
+  <LingAbiSexConversion.description>Changing the gender of the other party is not valid for genderless creatures</LingAbiSexConversion.description>
+  <!-- 伤害汲取 -->
+  <LingAbiDamageTransfer.label>Damage Extraction</LingAbiDamageTransfer.label>
+  <LingAbiDamageTransfer.description>Transfer all the wounds on the target's body to yourself</LingAbiDamageTransfer.description>
+  <!-- 伤害馈赠 -->
+  <LingAbiDamageTransOtr.label>The gift of harm</LingAbiDamageTransOtr.label>
+  <LingAbiDamageTransOtr.description>Transfer all wounds from your own body to the target</LingAbiDamageTransOtr.description>
+  <!-- 尸爆术 -->
+  <LingAbiCorpseExplosion.label>Corpse explosion</LingAbiCorpseExplosion.label>
+  <LingAbiCorpseExplosion.description>Applies a corpse explosion status to the target, which will explode if the target dies within a day</LingAbiCorpseExplosion.description>
+  <!-- 充电 -->
+  <LingAbiCharge.label>Recharge</LingAbiCharge.label>
+  <LingAbiCharge.description>Increases the energy of the specified battery by 100W</LingAbiCharge.description>
+  <!-- 闪烁 -->
+  <LingAbiSkipAndBack.label>Blink</LingAbiSkipAndBack.label>
+  <LingAbiSkipAndBack.description>Jump to the specified target and return to the original position after 1.5 seconds</LingAbiSkipAndBack.description>
+  <!-- 兔化 -->
+  <LingAbiForRabbit.label>Transformation to rabbits</LingAbiForRabbit.label>
+  <LingAbiForRabbit.description>Turn the target into a rabbit</LingAbiForRabbit.description>
+  <!-- 兽群 -->
+  <LingAbiMadBeast.label>herd of animals</LingAbiMadBeast.label>
+  <LingAbiMadBeast.description>Summon a horde of human-hunting beasts that do not discriminate between enemies</LingAbiMadBeast.description>
+  <!-- 扩散尸爆术 -->
+  <!--<LingAbiCorpseExplosionPlus.label>Diffusion corpse explosion</LingAbiCorpseExplosionPlus.label>-->
+  <!--<LingAbiCorpseExplosionPlus.description>Inflict a corpse explosion status on the target, which will explode if the target dies within a day, and add a diffuse corpse explosion to the target that is blown up</LingAbiCorpseExplosionPlus.description>-->
+</LanguageData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 伤害汲取 -->
+  <LingAbiDamageTransfer.label>Damage transfer</LingAbiDamageTransfer.label>
+  <LingAbiDamageTransfer.description>Transfer the damage received to the target</LingAbiDamageTransfer.description>
+  <!-- 尸爆术 -->
+  <LingAbiHediffCorpseExplosion.label>Corpse Explosion</LingAbiHediffCorpseExplosion.label>
+  <LingAbiHediffCorpseExplosion.description>Explosion upon death</LingAbiHediffCorpseExplosion.description>
+  <!-- <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiCorpseExplosionPlus</defName>
+    <label>super corpse explosion</label>
+    <description>Applies a corpse explosion status to the target, which will explode if the target dies within a day, and attach a corpse explosion to the target that is blown up</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/LingAbiCorpseExplosionPlus</iconPath>
+    <statBases>
+      <Ability_EntropyGain>60</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>35</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>LingAbiHediffCorpseExplosionPlus</hediffDef>
+        <applicableToMechs>true</applicableToMechs>
+      </li>
+    </comps>
+  </AbilityDef> -->
+  <LingAbiHediffCorpseExplosionPlus.label>Diffusion Corpse Explosion</LingAbiHediffCorpseExplosionPlus.label>
+  <LingAbiHediffCorpseExplosionPlus.description>An explosion occurs when dying, and a corpse explosion spell is attached to the target</LingAbiHediffCorpseExplosionPlus.description>
+  <!-- 闪烁 -->
+  <LingAbiHediffSkipAndBack.label>Flashback</LingAbiHediffSkipAndBack.label>
+  <LingAbiHediffSkipAndBack.description>Return to the designated location when finished</LingAbiHediffSkipAndBack.description>
+  <!-- 兽群 -->
+  <LingAbiHediffFalse.label>phantom</LingAbiHediffFalse.label>
+  <LingAbiHediffFalse.description>This creature is just a phantom, and will dissipate when it dies.</LingAbiHediffFalse.description>
+  <!-- 扩散尸爆术 -->
+</LanguageData>
